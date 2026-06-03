@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qtp-wind-solar-bess-moo"
+version = "0.1.0"
+description = "Spatial multi-objective optimization for Wind-Solar-BESS siting on the Qinghai-Tibet Plateau"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = [
+    "numpy>=1.24",
+    "pandas>=2.0",
+    "xarray>=2024.1",
+    "netCDF4>=1.6",
+    "openpyxl>=3.1",
+    "tqdm>=4.66",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

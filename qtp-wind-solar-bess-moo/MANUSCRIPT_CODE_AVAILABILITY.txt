@@ -1,0 +1,10 @@
+Code Availability
+
+The code used to implement the spatial multi-objective optimization framework is available at GitHub: https://github.com/AUTHOR_INPUT_NEEDED/qtp-wind-solar-bess-moo. The repository includes the core Python implementation of the binary spatial multi-objective optimization framework, the NSGA-II, MOEA/D, and SPEA2-style selection procedures, a command-line script for reproducing the optimization experiments from processed NetCDF inputs, and a cleaned provenance notebook. The processed geospatial input files are not included in the code repository because they are derived from multiple external datasets; the required input variables and directory structure are documented in the repository. A permanent archived release DOI will be added before publication: AUTHOR_INPUT_NEEDED.
+
+中文核对
+
+投稿前需要把 AUTHOR_INPUT_NEEDED 替换为：
+1. GitHub 仓库地址；
+2. Zenodo/Figshare/OSF 等归档后的代码 DOI，如果期刊要求永久 DOI；
+3. 作者姓名和仓库 citation 信息。
